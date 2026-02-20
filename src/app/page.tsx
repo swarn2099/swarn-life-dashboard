@@ -1,10 +1,10 @@
-import { Calendar, Mail, Zap, Star } from "lucide-react";
+import { Calendar, Mail, Zap, Activity, Info, Utensils, Star, TrendingUp } from "lucide-react";
 
 export default function Home() {
   const lastUpdated = new Date().toLocaleTimeString();
 
   return (
-    <main className="max-w-5xl mx-auto p-6 md:p-12 space-y-12 bg-black min-h-screen text-zinc-100">
+    <main className="max-w-5xl mx-auto p-6 md:p-12 space-y-12 bg-black min-h-screen text-zinc-100 italic">
       <header className="flex flex-col md:flex-row justify-between items-start md:items-end gap-4 border-b border-zinc-800 pb-10">
         <div>
           <div className="flex items-center gap-3 mb-2">
@@ -35,17 +35,17 @@ export default function Home() {
           </div>
           
           <div className="space-y-4">
-            <div className="p-4 bg-red-500/5 border border-red-500/20 rounded-2xl">
+            <div className="p-4 bg-red-500/5 border border-red-500/20 rounded-2xl text-center">
                <p className="text-[10px] font-black text-red-500 mb-2 uppercase tracking-widest">🚨 Action Required</p>
                <p className="text-sm font-bold text-zinc-100">NFL+ Payment Failed</p>
                <p className="text-[10px] text-zinc-500 mt-1">Resolution: Re-auth credit card</p>
             </div>
-            <div className="p-4 bg-brand/5 border border-brand/20 rounded-2xl">
+            <div className="p-4 bg-brand/5 border border-brand/20 rounded-2xl text-center">
                <p className="text-[10px] font-black text-brand mb-2 uppercase tracking-widest">💼 Opportunity</p>
                <p className="text-sm font-bold text-zinc-100 uppercase">Sr. Backend @ Zapier</p>
                <p className="text-[10px] text-zinc-500 mt-1">Status: Replied / Tracking</p>
             </div>
-             <div className="p-4 bg-zinc-800/30 border border-zinc-800 rounded-2xl">
+             <div className="p-4 bg-zinc-800/30 border border-zinc-800 rounded-2xl text-center">
                <p className="text-[10px] font-black text-zinc-500 mb-2 uppercase tracking-widest">🏦 Finance</p>
                <p className="text-sm font-bold text-zinc-100 leading-tight">Charles Schwab Tender Offer Alert</p>
                <p className="text-[10px] text-zinc-500 mt-1 font-mono">Action: Verify Tender Offer details</p>
@@ -67,23 +67,23 @@ export default function Home() {
             <div className="group cursor-pointer">
               <p className="text-[10px] font-black text-zinc-600 uppercase tracking-[0.2em] mb-1">Melodic Techno • Sat</p>
               <h3 className="text-lg font-black text-zinc-100 group-hover:text-brand transition-colors uppercase leading-none">Massano (Afterlife)</h3>
-              <p className="text-[10px] text-zinc-500 mt-2 font-mono uppercase tracking-widest">Concord Music Hall • $30-$50</p>
+              <p className="text-[10px] text-zinc-500 mt-2 font-mono uppercase tracking-widest">Concord Music Hall • \$30-\$50</p>
             </div>
 
             <div className="group cursor-pointer">
               <p className="text-[10px] font-black text-zinc-600 uppercase tracking-[0.2em] mb-1">Luxury House • Sat</p>
               <h3 className="text-lg font-black text-zinc-100 group-hover:text-brand transition-colors uppercase leading-none">CID (Serum Event)</h3>
-              <p className="text-[10px] text-zinc-500 mt-2 font-mono uppercase tracking-widest">PRYSM Nightclub • $25-$45</p>
+              <p className="text-[10px] text-zinc-500 mt-2 font-mono uppercase tracking-widest">PRYSM Nightclub • \$25-\$45</p>
             </div>
 
             <div className="group cursor-pointer">
               <p className="text-[10px] font-black text-zinc-600 uppercase tracking-[0.2em] mb-1">Bass/Tech Warehouse • Sat</p>
               <h3 className="text-lg font-black text-zinc-100 group-hover:text-brand transition-colors uppercase leading-none">Ray Volpe</h3>
-              <p className="text-[10px] text-zinc-500 mt-2 font-mono uppercase tracking-widest">Radius Chicago • $40-$60</p>
+              <p className="text-[10px] text-zinc-500 mt-2 font-mono uppercase tracking-widest">Radius Chicago • \$40-\$60</p>
             </div>
 
-             <div className="p-4 bg-brand/10 border border-brand/20 rounded-2xl">
-               <p className="text-[10px] font-black text-brand mb-1 uppercase italic tracking-widest">Tonight's Target</p>
+             <div className="p-4 bg-brand/10 border border-brand/20 rounded-2xl text-center">
+               <p className="text-[10px] font-black text-brand mb-1 uppercase tracking-widest italic">Tonight's Target</p>
                <h3 className="text-sm font-black text-white uppercase italic">Willie Lill's Happy Hour</h3>
                <p className="text-[10px] text-brand/70 mt-1 font-mono uppercase">StartTime: 9:30 PM</p>
             </div>
