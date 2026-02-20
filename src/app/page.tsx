@@ -1,4 +1,4 @@
-import { Calendar, Mail, Zap, Activity, Info, Utensils, TrendingUp } from "lucide-react";
+import { Calendar, Mail, Zap, Star } from "lucide-react";
 
 export default function Home() {
   const lastUpdated = new Date().toLocaleTimeString();
